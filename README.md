@@ -78,11 +78,11 @@ HarryBot does not intentionally store Discord messages or personal user data.
 
 It reads incoming Discord messages only as necessary to determine whether the configured user sent them and to provide its response.
 
-See [PRIVACY.md](PRIVACY.md) for the full Privacy Policy.
+See [Privacy Policy.md](Privacy Policy.md) for the full Privacy Policy.
 
 ## Terms of Service
 
-See [TERMS.md](TERMS.md) for HarryBot's Terms of Service.
+See [Terms of Service.md](Terms of Service.md) for HarryBot's Terms of Service.
 
 ## Disclaimer
 
