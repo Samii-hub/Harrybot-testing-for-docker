@@ -6,7 +6,7 @@ HarryBot is a small personal Discord bot written in Python.
 
 It watches for messages sent by a specified Discord user and responds in the same channel with one message from a predefined list.
 
-HarryBot was originally made for a friend and has retained the name ever since.
+HarryBot was originally made for Harry as a prank and has retained the name ever since.
 
 ## What It Does
 
