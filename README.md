@@ -1,5 +1,6 @@
 # Harrybot-testing-for-docker
 figuring out how to use unraid docker
+
 ---
 
 HarryBot is a small personal Discord bot written in Python.
@@ -29,3 +30,64 @@ Install the required Python package with:
 
 ```bash
 python -m pip install discord.py
+```
+
+## Configuration
+
+Before running HarryBot, configure:
+
+* The Discord bot token
+* The Discord username/user the bot should respond to
+* The predefined response messages
+
+### Bot Token
+
+Keep your Discord bot token private.
+
+Do not upload your token to GitHub or include it in a public copy of the source code.
+
+## Running HarryBot
+
+Run the bot with:
+
+```bash
+python harrybot.py
+```
+
+When successfully connected, the console will display:
+
+```text
+HarryBot has logged in.
+```
+
+## Discord Setup
+
+HarryBot requires a Discord application created through the Discord Developer Portal.
+
+The bot must be invited to the Discord server where it will be used and given permission to:
+
+* View channels
+* Read messages
+* Send messages
+
+The required Discord intents must also be enabled for the bot.
+
+## Privacy
+
+HarryBot does not intentionally store Discord messages or personal user data.
+
+It reads incoming Discord messages only as necessary to determine whether the configured user sent them and to provide its response.
+
+See [PRIVACY.md](PRIVACY.md) for the full Privacy Policy.
+
+## Terms of Service
+
+See [TERMS.md](TERMS.md) for HarryBot's Terms of Service.
+
+## Disclaimer
+
+HarryBot is a small privately operated project and is not affiliated with or endorsed by Discord Inc.
+
+## License
+
+This project is intended primarily for personal use.
